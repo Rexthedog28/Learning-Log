@@ -9,7 +9,8 @@
   <ul class="list-group border-bottom pb-2 mb-4">
     {% for topic in topics %}
       <li style="font-size: 20px;"class="list-group-item border-0" >
-        <a style="text-decoration: none;" href="{% url 'learning_logs:topic' topic.id %}">
+        <a style="text-decoration: none;" 
+          href="{% url 'learning_logs:topic' topic.id %}">
           {{ topic.text }}
         </a>
       </li>
@@ -17,6 +18,8 @@
       <li class="list-group-item border-0">No topics have been added yet.</li>
     {% endfor %}
   </ul>
-  <a href="{% url 'learning_logs:new_topic' %}">Add a new topic</a>
+  <a href="{% url 'learning_logs:new_topic' %}" class="btn btn-primary" >
+    Add a new topic
+  </a>
 
 {% endblock content %}
