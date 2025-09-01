@@ -5,11 +5,6 @@
 This project was developed by following the *Python Crash Course* book by Eric Matthes as a hands-on exercise in learning Django web development.
 
 ---
-## 🌐 Live Demo
-You can try out the Learning Log web app live here:
-
-👉 https://shorturl.at/m5xuQ
----
 
 ## 🚀 Features
 
